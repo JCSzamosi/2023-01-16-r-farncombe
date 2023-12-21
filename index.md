@@ -259,6 +259,13 @@ Edit the text to match who can attend the workshop. For instance:
 	members of the Farncombe Institute at McMaster University.
 </p>
 
+<p id="masks">
+	<strong>Please note:</strong>
+	This is a <strong>mask-mandatory</strong> event. All attendees will be
+	required to wear high-quality (KN95 or better) masks while attending the
+	event. Masks will be provided to those who are unable to bring them.
+</p>
+
 <hr/>
 
 {% comment%}
