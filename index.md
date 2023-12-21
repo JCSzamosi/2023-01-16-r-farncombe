@@ -86,7 +86,8 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-<p>
+<p>This is a workshop hosted by the Farncombe Institute Trainees Association
+(FITA), using curriculum from <strong>The Carpentries</strong>.
 <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
 <a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
@@ -140,28 +141,6 @@ address.
 {% else %}
 {% assign online = "false" %}
 {% endif %}
-{% if page.latitude and page.longitude and online == "false" %}
-<p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
-</p>
-{% elsif online == "true_public" %}
-<p id="where">
-  <strong>Where:</strong>
-  online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
-</p>
-{% elsif online == "true_private" %}
-<p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
-</p>
-{% endif %}
 
 {% comment %}
 DATE
@@ -198,7 +177,6 @@ ACCESSIBILITY
 
 Modify the block below if there are any barriers to accessibility or
 special instructions.
-{% endcomment %}
 <p id="accessibility">
   <strong>Accessibility:</strong>
 {% if online == "false" %}
@@ -227,6 +205,7 @@ special instructions.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -273,12 +252,12 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to graduate students, post-docs, and faculty who are
+	members of the Farncombe Institute at McMaster University.
 </p>
-{% endcomment %}
 
 <hr/>
 
