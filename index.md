@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "McMaster University"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "1280 Main St. W, Hamilton, ON"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "Canada"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "43.25"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -257,13 +257,6 @@ Edit the text to match who can attend the workshop. For instance:
     <strong>Who can attend?:</strong>
     This workshop is open to graduate students, post-docs, and faculty who are
 	members of the Farncombe Institute at McMaster University.
-</p>
-
-<p id="masks">
-	<strong>Please note:</strong>
-	This is a <strong>mask-mandatory</strong> event. All attendees will be
-	required to wear high-quality (KN95 or better) masks while attending the
-	event. Masks will be provided to those who are unable to bring them.
 </p>
 
 <hr/>
